@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f4d04e;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.text-preset-1 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-style: normal;
+  color: #111111;
+}
+.text-preset-2 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #6b6b6b;
+  font-style: normal;
+}
+.text-preset-3 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-style: normal;
+  color: #111111;
+}
+.text-preset-3-bold {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-style: bold;
+  color: #111111;
+}
+
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px;
+}
+
+.blog-image {
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+:hover#title {
+  cursor: pointer;
+  color: #f4d04e;
+}
+
+.category {
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  width: 82px;
+  height: 29px;
+  border-radius: 4px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  gap: 12px;
+  margin-top: 24px;
+}
